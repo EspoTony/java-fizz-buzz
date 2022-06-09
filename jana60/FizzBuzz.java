@@ -3,13 +3,15 @@ package jana60;
 import java.util.Scanner;
 
 public class FizzBuzz {
-	
+
 	public static void main(String[] args) {
-		/* stampa numeri da 1 a 100
+		/*
+		 * stampa numeri da 1 a 100
 		 * per i multipli di 3 stampa Fizz
 		 * per i multipli di 5 stampa Buzz
-		 * per i multipli sia di 3 che di 5 stampa FizzBuzz*/
-		
+		 * per i multipli sia di 3 che di 5 stampa FizzBuzz
+		 */
+
 		System.out.println("Giochiamo a FizzBuzz:");
 		for (int i = 1; i < 101; i++) {
 			// add FizzBuzz
@@ -25,6 +27,6 @@ public class FizzBuzz {
 				System.out.println(i);
 			}
 		}
-
+		//
 	}
-	}
+}
